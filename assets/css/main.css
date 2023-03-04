@@ -35,6 +35,7 @@
   --mm: 0.5rem;
   --ml: 1rem;
   --mxl: 1.5rem;
+  --mxxl: 2rem;
 }
 body {
   background-color: var(--darkgray);
@@ -48,7 +49,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--neonpurple);
-  border-radius: 2px;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--veronica);
@@ -64,6 +65,8 @@ body {
 }
 .this--is--me {
   padding: var(--ml);
+  text-transform: uppercase;
+  font-size: var(--mxxl);
 }
 .navbar ul {
   list-style: none;
