@@ -36,6 +36,7 @@
   --ml: 1rem;
   --mxl: 1.5rem;
   --mxxl: 2rem;
+  --mxxxl: 2.5rem;
 }
 body {
   background-color: var(--darkgray);
@@ -79,6 +80,32 @@ body {
   text-decoration: none;
 }
 .fa-github {
+  font-size: var(--mxl);
+}
+.hero--section {
+  padding: var(--mxxl);
+  margin: 0 var(--mxxl);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.hero--section--img {
+  margin: 0 var(--mxxl);
+  height: 400px;
+}
+.hero--section--article {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mxl);
+}
+.hero--section--article h1 {
+  font-size: var(--mxxl);
+  text-align: center;
+}
+.hero--section--article p {
   font-size: var(--mxl);
 }
 
