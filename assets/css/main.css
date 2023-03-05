@@ -66,6 +66,7 @@ body {
 }
 .this--is--me {
   padding: var(--ml);
+  user-select: none;
   text-transform: uppercase;
   font-size: var(--mxxl);
 }
@@ -92,21 +93,30 @@ body {
 .hero--section--img {
   margin: 0 var(--mxxl);
   height: 400px;
+  box-shadow: 0 0 40px var(--black-bean);
 }
 .hero--section--article {
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: var(--mxl);
+  gap: var(--mxxxl);
 }
 .hero--section--article h1 {
   font-size: var(--mxxl);
-  text-align: center;
 }
 .hero--section--article p {
   font-size: var(--mxl);
+}
+.self--assesment--section {
+  margin: var(--mxxxl);
+  padding: var(--mxxl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--darkoker);
+  border-radius: 15px;
 }
 
 /*  */
