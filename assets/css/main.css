@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  font-family: sans-serif;
+  /* Temporary font */
 }
 :root {
   --lightblue: #d8eafd;
@@ -37,10 +40,11 @@
   --mxl: 1.5rem;
   --mxxl: 2rem;
   --mxxxl: 2.5rem;
+  --huge: 5rem;
 }
 body {
   background-color: var(--darkgray);
-  height: 200vh;
+  height: 4000px;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -85,7 +89,7 @@ body {
 }
 .hero--section {
   padding: var(--mxxl);
-  margin: 0 var(--mxxl);
+  margin: var(--mxxl);
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -113,10 +117,117 @@ body {
   margin: var(--mxxxl);
   padding: var(--mxxl);
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
   background-color: var(--darkoker);
   border-radius: 15px;
+
+  box-shadow: 0 0 50px var(--grayblue);
+}
+.self--assesment--heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ml);
+  color: white;
+  width: 100%;
+}
+.self--assesment--heading h2 {
+  font-size: var(--mxxxl);
+}
+.self--assesment--heading p {
+  font-size: var(--mxl);
+}
+.self--assesment--heading--grades {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  /* gap: var(--huge); */
+}
+.self--assesment--items {
+  margin: var(--mxl);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: var(--mxxl) 0;
+}
+.bar {
+  margin: 0 var(--mxxl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80vw;
+  height: 3rem;
+  background: white;
+
+  position: relative;
+}
+.self--assesment--knoledge--bar--js {
+  position: absolute;
+  width: 63vw;
+  height: 3rem;
+  background: var(--darkerblue);
+  left: 0;
+}
+.self--assesment--knoledge--bar--nodejs {
+  position: absolute;
+  width: 57vw;
+  height: 3rem;
+  background: var(--darkerblue);
+  left: 0;
+}
+.self--assesment--knoledge--bar--react {
+  position: absolute;
+  width: 40vw;
+  height: 3rem;
+  background: var(--darkerblue);
+  left: 0;
+}
+.self--assesment--knoledge--bar--c {
+  position: absolute;
+  width: 40vw;
+  height: 3rem;
+  background: var(--darkerblue);
+  left: 0;
+}
+.self--assesment--knoledge--bar--cpp {
+  position: absolute;
+  width: 35vw;
+  height: 3rem;
+  background: var(--darkerblue);
+  left: 0;
+}
+.self--assesment--knoledge--bar--tailwind {
+  position: absolute;
+  width: 43vw;
+  height: 3rem;
+  background: var(--darkerblue);
+  left: 0;
+}
+.self--assesment--knoledge--bar--html {
+  position: absolute;
+  width: 75vw;
+  height: 3rem;
+  background: var(--darkerblue);
+  left: 0;
+}
+.self--assesment--knoledge--bar--css {
+  position: absolute;
+  width: 75vw;
+  height: 3rem;
+  background: var(--darkerblue);
+  left: 0;
 }
 
 /*  */
