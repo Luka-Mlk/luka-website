@@ -44,6 +44,7 @@
 }
 body {
   background-color: var(--darkgray);
+  /* background-color: hsl(110, 26%, 54%, 0.7); */
   height: 4000px;
 }
 ::-webkit-scrollbar {
@@ -121,6 +122,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   background-color: var(--darkoker);
+  /* background-color: hsl(64, 70%, 58%, 0.6); */
   border-radius: 15px;
 
   box-shadow: 0 0 50px var(--grayblue);
@@ -159,7 +161,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  margin: var(--mxxl) 0;
+  margin: 0 0 var(--mxxl) 0;
 }
 .bar {
   margin: 0 var(--mxxl);
@@ -229,8 +231,91 @@ body {
   background: var(--darkerblue);
   left: 0;
 }
+.work--experience--section {
+  margin: var(--mxxxl);
 
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  /* gap: 15vw; */
+}
+.work--exp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.work--exp--left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 240px;
+  color: white;
+}
+.work--exp--side--cont {
+  width: 30vw;
+}
+.work--exp--side--cont h2 {
+  font-size: var(--mxxxl);
+}
+.work--exp--side--cont p {
+  margin: var(--mxl);
+  font-size: var(--mxl);
+}
+.work--exp--side--cont--ul {
+  list-style: none;
+}
+.work--exp--side--cont--ul li {
+  margin: var(--mm);
+}
+.work--exp--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.vertical--line {
+  width: 3px;
+  height: 250px;
+  background-color: white;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+}
+.ending--button--cent {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background-color: var(--darkorange);
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: var(--ml);
+}
+.work--exp--right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 260px; */
+  margin: 120px 0 0 0;
+  color: white;
+}
+
+.work--exp--right--cont {
+  width: 30vw;
+}
 /*  */
+.thm {
+  margin: 150px 0 0 0;
+}
+
+.empt {
+  width: 300px;
+  height: 100px;
+}
 .hidden {
   display: none;
 }
