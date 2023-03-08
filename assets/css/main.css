@@ -231,6 +231,12 @@ body {
   background: var(--darkerblue);
   left: 0;
 }
+.prev--work--exp--h2 {
+  text-align: center;
+  color: white;
+  font-size: var(--mxl);
+  margin: var(--mxxxl);
+}
 .work--experience--section {
   margin: var(--mxxxl);
 
