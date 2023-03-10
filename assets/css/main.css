@@ -42,6 +42,9 @@
   --mxxxl: 2.5rem;
   --huge: 5rem;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--darkgray);
   /* background-color: hsl(110, 26%, 54%, 0.7); */
@@ -51,7 +54,7 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background-color: var(--darkgray);
+  background-color: var(--darkoker);
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--neonpurple);
@@ -81,9 +84,15 @@ body {
   align-items: center;
   gap: var(--ml);
 }
+.navbar li:hover {
+  cursor: pointer;
+}
 .navbar a {
   color: white;
   text-decoration: none;
+}
+.navbar a:hover {
+  color: var(--indian-red);
 }
 .fa-github {
   font-size: var(--mxl);
@@ -397,6 +406,89 @@ body {
 footer {
   display: flex;
   /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/large-image-small-person.jpg");
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: var(--ml);
+  margin: var(--mxxxl) 0 0 0;
+  box-shadow: 0 0 50px var(--dark-purple);
+}
+.footer--elems--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--space-cadet);
+  border-radius: 10px;
+  width: 80%;
+}
+.footer--subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: var(--mxl);
+  padding: var(--mxl);
+}
+.keep--up {
+  gap: var(--mxxl);
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--mxl);
+  padding: var(--ml) var(--mxl);
+  border-radius: 100px;
+  border: 2px solid white;
+  width: fit-content;
+}
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+.socials i {
+  font-size: var(--mxxl);
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 100ms ease-in;
+}
+
+.socials i:hover {
+  background-color: white;
+  color: black;
+}
+.footer--subsection--nav {
+  padding: var(--mxxxl);
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.288);
+}
+.nav--h3 {
+  text-align: center;
+}
+.footer--nav--ul {
+  list-style: square;
+  color: var(--tiffany-blue);
+}
+.footer--nav--ul li {
+  margin: var(--ml);
+}
+.footer--nav--ul li:hover {
+  cursor: pointer;
+  color: white;
+}
+.footer--nav--ul a {
+  color: var(--tiffany-blue);
+  text-decoration: none;
 }
 /*  */
 .thm {

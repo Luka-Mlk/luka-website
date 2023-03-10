@@ -20,10 +20,10 @@
       <h2 class="this--is--me">This is me</h2>
       <nav class="navbar">
         <ul>
-          <li><a href="">Bio</a></li>
-          <li><a href="">Programming experience</a></li>
-          <li><a href="">Work experience</a></li>
-          <li><a href="">Projects</a></li>
+          <li><a onclick="scrollToBio()" >Bio</a></li>
+          <li><a onclick="scrollToSkill()" >Programming experience</a></li>
+          <li><a onclick="scrollToWork()" >Work experience</a></li>
+          <li><a onclick="scrollToProject()" >Projects</a></li>
           <li>
             <a href="https://github.com/Luka-Mlk" target="_blank">
               <i class="fa-brands fa-github"></i>
@@ -79,7 +79,7 @@
           <div class="self--assesment--heading--grades">
             <p>Beginner</p>
             <p>Intermediate</p>
-            <p>Highly experienced</p>
+            <p>Advanced</p>
           </div>
         </div>
         <div class="self--assesment--items">
@@ -227,15 +227,32 @@
       </section>
     </main>
     <footer>
-      <div class="footer--subsection">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sint.
-      </div>
-      <div class="footer--subsection">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sint.
-      </div>
-      <div class="footer--subsection">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sint.
+      <div class="footer--elems--wrapper">
+        <div class="footer--subsection keep--up">
+          <h3>You can keep up with me on my socials</h3>
+          <div class="socials">
+            <a target="_blank" href="https://www.instagram.com/luka.mllk/"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://github.com/Luka-Mlk"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href=""><i class="fa-brands fa-linkedin-in"></i></a> 
+          </div>
+          <h3>Or send me an email <a href="mailto:">here</a></h3>
+        </div>
+        <div class="footer--subsection">
+          <nav class="footer--subsection--nav">
+            <h3 class="nav--h3">Navigation</h3>
+            <ul class="footer--nav--ul">
+              <li><a onclick="scrollToBio()">Bio</a></li>
+              <li><a onclick="scrollToSkill()">Programming experience</a></li>
+              <li><a onclick="scrollToWork()">Work experience</a></li>
+              <li><a onclick="scrollToProject()">Projects</a></li>
+              <li><a href="https://github.com/Luka-Mlk">Github</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <div class="footer--subsection">
+        </div> -->
       </div>
     </footer>
+    <script src="./assets/scripts/main.js"></script>
   </body>
 </html>
