@@ -37,6 +37,7 @@
   --ms: 0.25rem;
   --mm: 0.5rem;
   --ml: 1rem;
+  --mml: 1.25rem;
   --mxl: 1.5rem;
   --mxxl: 2rem;
   --mxxxl: 2.5rem;
@@ -503,4 +504,309 @@ footer {
 }
 .hidden {
   display: none;
+}
+@media screen and (max-width: 1200px) {
+  .hero--section--article p {
+    font-size: var(--mml);
+  }
+  .bar {
+    width: 75vw;
+  }
+  .self--assesment--knoledge--bar--js {
+    width: 63vw;
+  }
+  .self--assesment--knoledge--bar--nodejs {
+    width: 57vw;
+  }
+  .self--assesment--knoledge--bar--react {
+    width: 40vw;
+  }
+  .self--assesment--knoledge--bar--c {
+    width: 40vw;
+  }
+  .self--assesment--knoledge--bar--cpp {
+    width: 35vw;
+  }
+  .self--assesment--knoledge--bar--tailwind {
+    width: 44vw;
+  }
+  .self--assesment--knoledge--bar--html {
+    width: 65vw;
+  }
+  .self--assesment--knoledge--bar--css {
+    width: 65vw;
+  }
+  .project--img--wrapper img {
+    padding: var(--mml);
+    width: 300px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .hero--section--img {
+    height: 450px;
+  }
+  .hero--section--article p {
+    font-size: var(--mml);
+  }
+  .bar {
+    width: 70vw;
+  }
+  .self--assesment--knoledge--bar--js {
+    width: 55vw;
+  }
+  .self--assesment--knoledge--bar--nodejs {
+    width: 50vw;
+  }
+  .self--assesment--knoledge--bar--react {
+    width: 35vw;
+  }
+  .self--assesment--knoledge--bar--c {
+    width: 30vw;
+  }
+  .self--assesment--knoledge--bar--cpp {
+    width: 30vw;
+  }
+  .self--assesment--knoledge--bar--tailwind {
+    width: 39vw;
+  }
+  .self--assesment--knoledge--bar--html {
+    width: 59vw;
+  }
+  .self--assesment--knoledge--bar--css {
+    width: 59vw;
+  }
+  .work--exp--side--cont h2 {
+    font-size: var(--mxl);
+  }
+  .work--exp--side--cont p {
+    font-size: var(--mml);
+    margin: var(--ml);
+  }
+  .work--exp--side--cont li {
+    font-size: var(--ml);
+  }
+  .work--exp--left {
+    gap: 200px;
+  }
+  .indent {
+    margin: var(--mm);
+  }
+  .project--img--wrapper img {
+    padding: var(--mml);
+    width: 250px;
+  }
+  .project--img--wrapper {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hero--section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--mxxl);
+  }
+  .hero--section--img {
+    height: 350px;
+  }
+  .hero--section--article p {
+    font-size: var(--mml);
+  }
+  .self--assesment--heading--grades {
+    justify-content: flex-end;
+    gap: 5.5rem;
+    margin-right: 2rem;
+  }
+  .bar {
+    width: 65vw;
+  }
+  .self--assesment--knoledge--bar--js {
+    width: 55vw;
+  }
+  .self--assesment--knoledge--bar--nodejs {
+    width: 50vw;
+  }
+  .self--assesment--knoledge--bar--react {
+    width: 35vw;
+  }
+  .self--assesment--knoledge--bar--c {
+    width: 30vw;
+  }
+  .self--assesment--knoledge--bar--cpp {
+    width: 30vw;
+  }
+  .self--assesment--knoledge--bar--tailwind {
+    width: 39vw;
+  }
+  .self--assesment--knoledge--bar--html {
+    width: 59vw;
+  }
+  .self--assesment--knoledge--bar--css {
+    width: 59vw;
+  }
+  .work--exp--side--cont h2 {
+    font-size: var(--mxl);
+  }
+  .work--exp--side--cont p {
+    font-size: var(--mml);
+    margin: var(--ml);
+  }
+  .work--exp--side--cont li {
+    font-size: var(--ml);
+  }
+  .work--exp--left {
+    gap: 150px;
+  }
+  .indent {
+    margin: var(--mm);
+  }
+  .project--img--wrapper img {
+    padding: var(--mml);
+    width: 250px;
+  }
+  .project--img--wrapper {
+    height: 200px;
+  }
+  .footer--subsection--nav {
+    padding: var(--mml) var(--ml);
+  }
+}
+@media screen and (max-width: 700px) {
+  .this--is--me {
+    font-size: var(--mxl);
+  }
+  .navbar li {
+    font-size: var(--ml);
+  }
+  .hero--section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--mxxl);
+  }
+  .hero--section--img {
+    height: 350px;
+  }
+  .hero--section--article p {
+    font-size: var(--mml);
+  }
+  .self--assesment--heading--grades {
+    justify-content: flex-end;
+    gap: 3rem;
+    margin-right: 2rem;
+  }
+  .bar {
+    width: 60vw;
+  }
+  .self--assesment--knoledge--bar--js {
+    width: 45vw;
+  }
+  .self--assesment--knoledge--bar--nodejs {
+    width: 40vw;
+  }
+  .self--assesment--knoledge--bar--react {
+    width: 34vw;
+  }
+  .self--assesment--knoledge--bar--c {
+    width: 28vw;
+  }
+  .self--assesment--knoledge--bar--cpp {
+    width: 28vw;
+  }
+  .self--assesment--knoledge--bar--tailwind {
+    width: 37vw;
+  }
+  .self--assesment--knoledge--bar--html {
+    width: 50vw;
+  }
+  .self--assesment--knoledge--bar--css {
+    width: 50vw;
+  }
+  .work--exp--side--cont h2 {
+    font-size: var(--mxl);
+  }
+  .work--exp--side--cont p {
+    font-size: var(--mml);
+    margin: var(--ml);
+  }
+  .work--exp--side--cont li {
+    font-size: var(--ml);
+  }
+  .work--exp--left {
+    gap: 120px;
+  }
+  .indent {
+    margin: var(--mm);
+  }
+  .projects--h2 {
+    margin: var(--mxl);
+  }
+  .project--card {
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--ml);
+  }
+  .project--img--wrapper img {
+    padding: var(--mml);
+    width: 250px;
+  }
+  .project--img--wrapper {
+    width: fit-content;
+  }
+  .project--desc--wrapper {
+    margin: 0;
+  }
+  .project--desc--wrapper p {
+    font-size: var(--mxl);
+  }
+  .footer--elems--wrapper {
+    width: 100%;
+  }
+  .footer--subsection--nav {
+    padding: var(--mml) var(--ml);
+    margin: 0;
+  }
+}
+@media screen and (max-width: 655px) {
+  .this--is--me {
+    font-size: var(--mxxl);
+  }
+  .main--header {
+    position: relative;
+  }
+  .navbar {
+    display: none;
+  }
+  .mobile--nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: var(--mml);
+    transition: top 400ms ease-in-out;
+    background-color: var(--darkerblue);
+    width: 100vw;
+    right: 5rem;
+  }
+  .mobile--nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .mobile--nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .fa-bars {
+    display: block;
+    font-size: var(--mxxxl);
+    margin-right: var(--mxl);
+  }
+  .self--assesment--heading--grades {
+    gap: 1.5rem;
+    margin-right: 2rem;
+  }
 }
