@@ -823,9 +823,12 @@ footer {
   }
 }
 @media screen and (max-width: 600px) {
-  .mobile--nav a {
-    font-size: var(--ml);
+  .mobile--nav ul {
+    gap: 1rem;
   }
+  /* .mobile--nav a {
+    font-size: var(--ml);
+  } */
   .self--assesment--heading--grades {
     justify-content: flex-end;
     gap: 1rem;
@@ -871,6 +874,9 @@ footer {
   }
 }
 @media screen and (max-width: 500px) {
+  .mobile--nav ul {
+    gap: 0.75rem;
+  }
   .self--assesment--heading h2 {
     font-size: var(--mxl);
   }
@@ -955,6 +961,13 @@ footer {
   }
 }
 @media screen and (max-width: 450px) {
+  .mobile--nav a {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .mobile--nav ul {
+    gap: 0.5rem;
+  }
   .self--assesment--section {
     padding: var(--mml);
     margin: var(--mml);
@@ -1031,6 +1044,13 @@ footer {
   }
 }
 @media screen and (max-width: 425px) {
+  .mobile--nav a {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  .mobile--nav ul {
+    gap: 0.5rem;
+  }
   .hero--section {
     margin: 0;
   }
@@ -1055,6 +1075,12 @@ footer {
   }
 }
 @media screen and (max-width: 375px) {
+  .mobile--nav ul {
+    gap: 0.5rem;
+  }
+  .mobile--nav li {
+    text-align: center;
+  }
   .self--assesment--items {
     margin: 0;
   }
