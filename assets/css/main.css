@@ -809,4 +809,340 @@ footer {
     gap: 1.5rem;
     margin-right: 2rem;
   }
+  .self--assesment--section img {
+    width: 48px;
+  }
+  .project--desc--atrb {
+    width: 65vw;
+  }
+  .project--desc--wrapper img {
+    width: 48px;
+  }
+  .project--desc--wrapper p {
+    font-size: var(--mml);
+  }
+}
+@media screen and (max-width: 600px) {
+  .mobile--nav a {
+    font-size: var(--ml);
+  }
+  .self--assesment--heading--grades {
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 2rem;
+  }
+  .self--assesment--heading--grades p {
+    font-size: var(--mml);
+  }
+  .bar {
+    width: 55vw;
+  }
+  .self--assesment--knoledge--bar--js {
+    width: 42vw;
+  }
+  .self--assesment--knoledge--bar--nodejs {
+    width: 38vw;
+  }
+  .self--assesment--knoledge--bar--react {
+    width: 32vw;
+  }
+  .self--assesment--knoledge--bar--c {
+    width: 24vw;
+  }
+  .self--assesment--knoledge--bar--cpp {
+    width: 24vw;
+  }
+  .self--assesment--knoledge--bar--tailwind {
+    width: 28vw;
+  }
+  .self--assesment--knoledge--bar--html {
+    width: 48vw;
+  }
+  .self--assesment--knoledge--bar--css {
+    width: 48vw;
+  }
+
+  .work--exp--left {
+    gap: 60px;
+  }
+
+  .footer--elems--wrapper {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 500px) {
+  .self--assesment--heading h2 {
+    font-size: var(--mxl);
+  }
+
+  .self--assesment--heading--grades {
+    justify-content: flex-end;
+
+    gap: 0.8rem;
+  }
+  .self--assesment--heading--grades p {
+    font-size: var(--mml);
+  }
+  .bar {
+    width: 48vw;
+  }
+  .self--assesment--section img {
+    width: 48px;
+  }
+  .self--assesment--knoledge--bar--js {
+    width: 35vw;
+  }
+  .self--assesment--knoledge--bar--nodejs {
+    width: 31vw;
+  }
+  .self--assesment--knoledge--bar--react {
+    width: 30vw;
+  }
+  .self--assesment--knoledge--bar--c {
+    width: 21vw;
+  }
+  .self--assesment--knoledge--bar--cpp {
+    width: 21vw;
+  }
+  .self--assesment--knoledge--bar--tailwind {
+    width: 25vw;
+  }
+  .self--assesment--knoledge--bar--html {
+    width: 39vw;
+  }
+  .self--assesment--knoledge--bar--css {
+    width: 39vw;
+  }
+  .work--exp--left {
+    position: relative;
+  }
+  .work--exp--right {
+    position: relative;
+  }
+  .work--exp--side--cont {
+    position: absolute;
+    background-color: var(--darkerblue);
+  }
+  .datapoint {
+    top: 10px;
+    left: -20px;
+    width: 65vw;
+  }
+  .a1 {
+    top: 540px;
+    left: -20px;
+    width: 65vw;
+  }
+  .thm {
+    top: 220px;
+    right: -40px;
+    width: 65vw;
+    margin: 0;
+  }
+
+  .project--desc--wrapper img {
+    width: 48px;
+  }
+  .project--desc--wrapper p {
+    font-size: var(--mml);
+  }
+  .project--desc--atrb {
+    width: 65vw;
+  }
+  .footer--subsection {
+    margin: var(--mm);
+    padding: var(--mm);
+  }
+}
+@media screen and (max-width: 450px) {
+  .self--assesment--section {
+    padding: var(--mml);
+    margin: var(--mml);
+  }
+  .bar {
+    width: 55vw;
+  }
+  .self--assesment--knoledge--bar--js {
+    width: 42vw;
+  }
+  .self--assesment--knoledge--bar--nodejs {
+    width: 38vw;
+  }
+  .self--assesment--knoledge--bar--react {
+    width: 32vw;
+  }
+  .self--assesment--knoledge--bar--c {
+    width: 24vw;
+  }
+  .self--assesment--knoledge--bar--cpp {
+    width: 24vw;
+  }
+  .self--assesment--knoledge--bar--tailwind {
+    width: 28vw;
+  }
+  .self--assesment--knoledge--bar--html {
+    width: 48vw;
+  }
+  .self--assesment--knoledge--bar--css {
+    width: 48vw;
+  }
+  .prev--work--exp--h2 {
+    font-size: var(--mxxl);
+    padding: var(--mml);
+    margin: 4rem;
+  }
+  .work--experience--section {
+    margin: var(--mxl);
+  }
+  .vertical--line {
+    height: 300px;
+  }
+  .datapoint {
+    top: 30px;
+    left: -35px;
+    width: 70vw;
+  }
+  .a1 {
+    top: 690px;
+    left: -35px;
+    width: 70vw;
+  }
+  .thm {
+    top: 290px;
+    right: -25px;
+    width: 70vw;
+    margin: 0;
+  }
+  .footer--elems--wrapper {
+    flex-direction: column-reverse;
+  }
+  .footer--subsection {
+    margin: var(--ms);
+    padding: var(--mm);
+  }
+  .keep--up h3 {
+    font-size: var(--ml);
+  }
+  .socials {
+    padding: var(--mm) var(--ml);
+  }
+  .socials i {
+    font-size: var(--mxl);
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero--section {
+    margin: 0;
+  }
+  .vertical--line {
+    height: 320px;
+  }
+  .datapoint {
+    top: 30px;
+    left: -30px;
+    width: 70vw;
+  }
+  .a1 {
+    top: 730px;
+    left: -30px;
+    width: 70vw;
+  }
+  .thm {
+    top: 330px;
+    right: -25px;
+    width: 70vw;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .self--assesment--items {
+    margin: 0;
+  }
+  .self--assesment--section img {
+    width: 38px;
+  }
+  .self--assesment--heading--grades p {
+    font-size: var(--ml);
+  }
+  .bar {
+    width: 55vw;
+    height: 2.5rem;
+    margin: var(--mml);
+  }
+  .self--assesment--knoledge--bar--js {
+    width: 42vw;
+    height: 2.5rem;
+  }
+  .self--assesment--knoledge--bar--nodejs {
+    width: 38vw;
+    height: 2.5rem;
+  }
+  .self--assesment--knoledge--bar--react {
+    width: 32vw;
+    height: 2.5rem;
+  }
+  .self--assesment--knoledge--bar--c {
+    width: 24vw;
+    height: 2.5rem;
+  }
+  .self--assesment--knoledge--bar--cpp {
+    width: 24vw;
+    height: 2.5rem;
+  }
+  .self--assesment--knoledge--bar--tailwind {
+    width: 28vw;
+    height: 2.5rem;
+  }
+  .self--assesment--knoledge--bar--html {
+    width: 48vw;
+    height: 2.5rem;
+  }
+  .self--assesment--knoledge--bar--css {
+    width: 48vw;
+    height: 2.5rem;
+  }
+  .datapoint {
+    top: 30px;
+    left: -20px;
+    width: 70vw;
+  }
+  .a1 {
+    top: 680px;
+    left: -20px;
+    width: 70vw;
+  }
+  .thm {
+    top: 320px;
+    right: -24px;
+    width: 70vw;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .self--assesment--heading--grades {
+    margin: 0;
+    gap: var(--mm);
+  }
+  .item {
+    margin: var(--mm);
+  }
+  .prev--work--exp--h2 {
+    margin: 2rem;
+  }
+  .datapoint {
+    top: 30px;
+    left: -20px;
+    width: 70vw;
+  }
+  .a1 {
+    top: 670px;
+    left: -20px;
+    width: 70vw;
+  }
+  .thm {
+    top: 333px;
+    right: -12px;
+    width: 70vw;
+    margin: 0;
+  }
 }
