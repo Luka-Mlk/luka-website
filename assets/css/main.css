@@ -593,7 +593,7 @@ footer {
   }
   .project--img--wrapper img {
     padding: var(--mml);
-    width: 250px;
+    width: 200px;
   }
   .project--img--wrapper {
     height: 200px;
@@ -663,7 +663,6 @@ footer {
   }
   .project--img--wrapper img {
     padding: var(--mml);
-    width: 250px;
   }
   .project--img--wrapper {
     height: 200px;
@@ -750,7 +749,6 @@ footer {
   }
   .project--img--wrapper img {
     padding: var(--mml);
-    width: 250px;
   }
   .project--img--wrapper {
     width: fit-content;
